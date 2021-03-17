@@ -1,0 +1,5 @@
+name: "test"
+pattern: "^(?<host>[^\\s]+)\\s+(?<timestamp>[^\\s]+)"
+groups:
+  - "host"
+inputField: "text"
